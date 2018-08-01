@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 	<body class="l-body">
-		<header class="container-fluid l-header">
+		<header class="container-fluid l-body__header l-header" >
 			<nav class="c-navigation">
 				<figure class="c-navigation__logo">
 					<img src="img/logo.png" alt="Logotype">
@@ -33,5 +33,55 @@
 				</div>
 			</nav>
 		</header>
+		<main class="l-body__main">
+			<section class="p-index-main-slider owl-carousel owl-theme">
+				<div class="p-index-main-slider__item first-slide">
+					<div class="p-index-main-slider__slogan">
+						<h2 class="p-index-main-slider__title">Unique and Modern Design</h2>
+						<h1 class="p-index-main-slider__title">Portfolion PSD Template</h1>
+						<p class="p-index-main-slider__title">Nam liber tempor cum soluta nobis eleifend option congue nihil </p>
+					</div>
+					<button class="btn">Get started</button>
+				</div>
+				<div class="p-index-main-slider__item second-slide">
+					<div class="p-index-main-slider__slogan">
+						<h2 class="p-index-main-slider__title">Unique and Modern Design</h2>
+						<h1 class="p-index-main-slider__title">Portfolion PSD Template</h1>
+						<p class="p-index-main-slider__title">Nam liber tempor cum soluta nobis eleifend option congue nihil </p>
+					</div>
+					<button class="btn">Get started</button>
+				</div>
+				<div class="p-index-main-slider__item  third-slide">
+					<div class="p-index-main-slider__slogan">
+						<h2 class="p-index-main-slider__title">Unique and Modern Design</h2>
+						<h1 class="p-index-main-slider__title">Portfolion PSD Template</h1>
+						<p class="p-index-main-slider__title">Nam liber tempor cum soluta nobis eleifend option congue nihil </p>
+					</div>
+					<button class="btn">Get started</button>
+				</div>
+			</section>
+		</main>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$(".p-index-main-slider").owlCarousel({
+				navigation: true,
+				navText: ["<div>NextPage</div>","<div>PrevPage</div>"],
+				navClass: ["owl-prev", "owl-next"],
+				slideSpeed : 300,
+				paginationSpeed : 400,
+				items : 1, 
+				itemsDesktop : false,
+				itemsDesktopSmall : false,
+				itemsTablet: false,
+				itemsMobile : false,
+
+			  });
+			});
+		</script>
 	</body>
 </html>

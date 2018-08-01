@@ -16,4 +16,17 @@
 	'layout/l-footer';
 
 @import
-	'pages/p-index';
+	'pages/p-index-main-slider';
+
+@import
+	'vendor/animate',
+	'vendor/autoheight',
+	'vendor/core',
+	'vendor/lazyload',
+	'vendor/theme.default',
+	'vendor/theme.green',
+	'vendor/theme',
+	'vendor/video',
+	'vendor/owl.carousel',
+	'vendor/owl.theme.default',
+	'vendor/owl.theme.green';
