@@ -1,0 +1,45 @@
+body {
+	background-color: grey;
+}
+.c-navigation {
+	/*border: 1px solid red;*/
+	@include containers;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	
+	&__logo {
+		/*border: 1px solid black;*/
+		width: 181px;
+	}
+
+	&__menu {
+		/*border: 1px solid black;*/
+		width: 770px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__menu-list {
+		/*border: 1px solid black;*/
+		display: flex;
+	}
+
+	&__item {
+		/*border: 1px solid black;*/
+		padding-right: 28px;
+	}
+
+	&__icons {
+		width: 70px;
+		/*border: 1px solid black;*/
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		& img {
+			display: block;
+			/*border: 1px solid red;*/
+		}
+	}
+}

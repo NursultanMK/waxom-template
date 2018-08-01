@@ -1,0 +1,12 @@
+// Gradient mixin
+
+@mixin gradient {
+	background-image: -moz-linear-gradient( 0deg, $dark-theme 0%, $brown-theme 100%);
+	background-image: -webkit-linear-gradient( 0deg, $dark-theme 0%, $brown-theme 100%);
+	background-image: -ms-linear-gradient( 0deg, $dark-theme 0%, $brown-theme 100%);
+}
+
+@mixin containers {
+	width: 1230px;
+	padding: 0 3rem 0 3rem;
+}
