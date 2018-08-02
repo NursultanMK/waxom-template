@@ -1,15 +1,13 @@
 body {
   font-family: 'Montserrat', sans-serif; }
 
-body {
-  background-color: grey; }
-
 .c-navigation {
   width: 1230px;
   padding: 0 3rem 0 3rem;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: 1px solid red; }
   .c-navigation__logo {
     width: 181px; }
   .c-navigation__menu {
@@ -30,6 +28,61 @@ body {
     .c-navigation__icons img {
       display: block; }
 
+.c-service-list {
+  /*border: 1px solid red;*/
+  /*padding: 20px;*/
+  position: relative; }
+  .c-service-list * {
+    margin: 0; }
+  .c-service-list__item {
+    /*border: 1px solid purple;*/
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .c-service-list__icon {
+    /*border: 1px solid red;*/
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.1rem; }
+    .c-service-list__icon svg {
+      /*width: 100%;*/
+      height: 40px;
+      /*border: 1px solid black;*/ }
+  .c-service-list__item-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    /*border: 1px solid black;*/
+    margin-bottom: 1.9rem; }
+  .c-service-list__item-description {
+    /*border: 1px solid black;*/
+    line-height: 1.714;
+    text-align: center;
+    margin-bottom: 3.3rem; }
+
+.c-service-list__item:hover svg path {
+  fill: #c7b299;
+  transition: 0.2s; }
+
+.c-service-list__item:hover .c-service-list__item-title {
+  color: #c7b299;
+  transition: 0.2s; }
+
+.c-service-list__item::after {
+  content: "";
+  position: absolute;
+  padding: 3px;
+  background-color: #f1eee9;
+  width: 70px;
+  bottom: 0;
+  transition: 0.2s; }
+
+.c-service-list__item:hover::after {
+  background-color: #c7b299; }
+
 .l-body {
   position: relative; }
   .l-body__header {
@@ -37,17 +90,15 @@ body {
     width: 100%;
     z-index: 9999; }
   .l-body__main {
-    border: 1px solid green;
     position: relative; }
 
 .l-header {
-  border: 1px solid black;
   padding: 4rem 0 4rem 0; }
 
 .p-index-main-slider {
-  border: 1px solid black; }
+  /*border: 1px solid black;*/ }
   .p-index-main-slider__item {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     padding-top: 38rem;
     padding-bottom: 38rem;
     /*;*/
@@ -75,7 +126,7 @@ body {
       font-size: 1.6rem;
       margin-bottom: 5.4rem; }
   .p-index-main-slider__slogan {
-    border: 1px solid green; }
+    /*border: 1px solid green;*/ }
 
 .btn {
   margin: 0 auto;
@@ -96,6 +147,14 @@ body {
 
 .third-slide {
   background-image: url(../img/main-slider-img3.jpg); }
+
+.p-index-service {
+  /*border: 1px solid black;*/
+  padding-top: 8.1rem;
+  padding-bottom: 8.1rem; }
+  .p-index-service__inner {
+    width: 1230px;
+    padding: 0 3rem 0 3rem; }
 
 /*
  *  Owl Carousel - Animate Plugin

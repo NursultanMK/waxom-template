@@ -7,7 +7,8 @@
 	'base/base';
 
 @import
-	'components/c-navigation';
+	'components/c-navigation',
+	'components/c-service-list';
 
 @import
 	'layout/l-body',
@@ -16,7 +17,8 @@
 	'layout/l-footer';
 
 @import
-	'pages/p-index-main-slider';
+	'pages/p-index-main-slider',
+	'pages/p-index-service';
 
 @import
 	'vendor/animate',

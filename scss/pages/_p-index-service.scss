@@ -1,0 +1,9 @@
+.p-index-service {
+	/*border: 1px solid black;*/
+	padding-top: 8.1rem;
+	padding-bottom: 8.1rem;
+
+	&__inner {
+		@include containers;
+	}
+}

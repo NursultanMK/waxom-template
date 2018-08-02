@@ -1,11 +1,10 @@
-body {
-	background-color: grey;
-}
+
 .c-navigation {
 	@include containers;
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
+	border: 1px solid red;
 	
 	&__logo {
 		width: 181px;
