@@ -1,0 +1,34 @@
+.c-gradient-block {
+	border: 1px solid green;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	@include gradient;
+
+	&__inner {
+		border: 1px solid black;
+		display: flex;
+	}
+	&__text {
+		width: 60%;
+	}
+	&__text h1 {
+		margin-bottom: 0.2rem;
+		color: $primary-headings;
+	}
+
+	&__text p {
+		color: $light-grey-text;
+	}
+
+	&__button {
+		border: 1px solid white;
+		width: 40%;
+		display: flex;
+		justify-content: flex-end;
+
+		& .btn {
+			width: 170px;
+			margin: 0;
+		}
+	}
+}

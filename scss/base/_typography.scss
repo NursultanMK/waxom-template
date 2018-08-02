@@ -4,15 +4,24 @@ body {
 .t-heading {
 	margin: 0;
 	font-size: 3rem;
-	text-align: center;
 	border: 1px solid black;
-	margin-bottom: 2.5rem;
+	&--centered {
+		text-align: center;
+	}
 }
+
 .t-paragraph {
 	margin: 0;
 	font-size: 1.6rem;
 	line-height: 1.75;
-	text-align: center;
 	border: 1px solid red;
 	margin-bottom: 4.1rem;
+
+	&--centered {
+		text-align: center;
+	}
+
+	&--default {
+		margin: 0;
+	}
 }

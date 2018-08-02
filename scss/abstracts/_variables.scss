@@ -3,7 +3,10 @@
 $primary-theme: rgb(255, 255, 255) !default;
 $dark-theme: rgb(33, 27, 25) !default;
 $brown-theme: rgb(78, 52, 39) !default;
+$light-grey-theme: rgb(97, 88, 85) !default;
 
 // Typography color
 $primary-headings: $primary-theme;
 $primary-nav-list: $primary-theme;
+$light-grey-text: $light-grey-theme;
+$button-light: $primary-theme;
