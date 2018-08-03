@@ -1,0 +1,14 @@
+.p-index-partners {
+	border: 1px solid red;
+	padding-top: 14rem;
+	padding-bottom: 13.9rem;
+	background-image: url(../img/partners-background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	&__inner {
+		border: 1px solid green;
+		@include containers;
+	}
+}

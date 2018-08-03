@@ -104,6 +104,12 @@ ul {
     .c-navigation__icons img {
       display: block; }
 
+.c-partners-logos {
+  border: 1px solid red;
+  margin: 0; }
+  .c-partners-logos__img {
+    border: 1px solid green; }
+
 .c-projects-block {
   border: 1px solid red; }
   .c-projects-block__categories {
@@ -438,6 +444,19 @@ ul {
 
 .third-slide {
   background-image: url(../img/main-slider-img3.jpg); }
+
+.p-index-partners {
+  border: 1px solid red;
+  padding-top: 14rem;
+  padding-bottom: 13.9rem;
+  background-image: url(../img/partners-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .p-index-partners__inner {
+    border: 1px solid green;
+    width: 1230px;
+    padding: 0 3rem 0 3rem; }
 
 .p-index-projects {
   border: 1px solid black;
