@@ -1,6 +1,10 @@
 body {
   font-family: 'Montserrat', sans-serif; }
 
+p {
+  line-height: 1.714;
+  margin: 0; }
+
 .t-heading {
   margin: 0;
   font-size: 3rem;
@@ -27,8 +31,19 @@ body {
   margin: 0;
   font-size: 1.4rem; }
 
+.t-footer-heading {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 0;
+  color: white; }
+
 .btn {
   color: white; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
 
 .c-gradient-block {
   border: 1px solid green;
@@ -243,6 +258,120 @@ body {
 
 .l-header {
   padding: 4rem 0 4rem 0; }
+
+.l-footer {
+  /*border: 1px solid red;*/ }
+  .l-footer__website-info {
+    /*border: 1px solid green;*/
+    background: #191919;
+    padding-top: 10.8rem;
+    padding-bottom: 8rem; }
+  .l-footer__inner {
+    /*border: 1px solid white;*/
+    width: 1230px;
+    padding: 0 3rem 0 3rem; }
+  .l-footer__info-list {
+    /*border: 1px solid green;*/
+    padding: 40px; }
+  .l-footer__row {
+    /*border: 1px solid red;*/
+    margin: 0 -0.7rem; }
+  .l-footer__blocks {
+    /*border: 1px solid white;*/
+    padding: 0 0.7rem; }
+  .l-footer__item {
+    /*border: 1px solid green;*/ }
+  .l-footer__item-head {
+    /*border: 1px solid red;*/
+    margin: 0 0 1.2rem 0; }
+  .l-footer__item-list {
+    /*border: 1px solid red;*/
+    margin: 0; }
+  .l-footer__item-list-cell {
+    cursor: pointer;
+    color: white; }
+    .l-footer__item-list-cell * {
+      transition: 0.2s; }
+    .l-footer__item-list-cell:hover .l-footer__post-date {
+      color: #e0e0e0; }
+    .l-footer__item-list-cell:hover .l-footer__post-description {
+      color: #c7b299; }
+    .l-footer__item-list-cell:not(:last-child) {
+      border-bottom: 1px solid #252525; }
+  .l-footer__post-date {
+    /*border: 1px solid blue;*/
+    margin: 0;
+    padding: 2.1rem 0 1.1rem 0;
+    /*margin: 2.1rem 0 1.1rem 0;*/
+    font-size: 1.2rem;
+    color: #363636; }
+  .l-footer__post-description {
+    /*border: 1px solid blue;*/
+    margin: 0;
+    padding: 0 0 2.1rem 0;
+    font-size: 1.4rem;
+    color: #555555; }
+  .l-footer__twitter-list {
+    /*border: 1px solid blue;*/ }
+  .l-footer__twitter-item {
+    cursor: pointer; }
+    .l-footer__twitter-item:not(:last-child) {
+      border-bottom: 1px solid #252525; }
+  .l-footer__twitter-description {
+    /*border: 1px solid purple;*/
+    margin: 0 0 1.1rem 0;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+    color: #555555; }
+  .l-footer__twitter-date-of-publication {
+    font-size: 1.2rem;
+    color: #363636;
+    margin: 0;
+    padding-bottom: 2.1rem; }
+  .l-footer__widget-images {
+    /*border: 1px solid red;*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem; }
+  .l-footer__widget-item {
+    border: 1px solid blue; }
+    .l-footer__widget-item img {
+      width: 100%; }
+  .l-footer__logo-img {
+    /*border: 1px solid red;*/
+    margin-top: -2.1rem;
+    margin-bottom: 3.1rem; }
+  .l-footer__about-waxom-description {
+    /*border: 1px solid black;*/
+    margin-bottom: 5.6rem; }
+  .l-footer__text {
+    color: #555555; }
+  .l-footer__about-waxom-link {
+    /*border: 1px solid red;*/
+    color: white; }
+  .l-footer__arrow {
+    margin-left: 1rem;
+    width: 5px; }
+    .l-footer__arrow img {
+      width: 0.7rem; }
+  .l-footer__copyright {
+    border: 1px solid red; }
+
+.owl-carousel {
+  position: relative; }
+
+.owl-prev,
+.owl-next {
+  border: 1px solid red;
+  position: absolute;
+  top: 50%;
+  margin-top: -10px; }
+
+.owl-prev {
+  left: 0; }
+
+.owl-next {
+  right: 0; }
 
 .p-index-ideas {
   border: 1px solid black;

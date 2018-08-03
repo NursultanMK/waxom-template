@@ -17,4 +17,13 @@ $button-light: $primary-theme;
 // Project list
 $project-hovered-cards: $dark-brown-theme;
 $project-hovered-cards-text: $primary-theme;
-$button-color: $light-grey-theme-second-variant
+$button-color: $light-grey-theme-second-variant;
+
+// Footer
+$footer-background: rgb(25, 25, 25) !default;
+$footer-copyright: rgb(17, 17, 17) !default;
+$footer-item-lines: rgb(37, 37, 37) !default;
+$footer-item-dates-color: rgb(54, 54, 54) !default;
+$footer-item-description-color: rgb(85, 85, 85) !default;
+$footer-hovered-date: rgb(224, 224, 224) !default;
+$footer-hovered-description: rgb(199, 178, 153) !default;

@@ -1,0 +1,157 @@
+.l-footer {
+	/*border: 1px solid red;*/
+
+	&__website-info {
+		/*border: 1px solid green;*/
+		background: $footer-background;
+		padding-top: 10.8rem;
+		padding-bottom: 8rem;
+	}
+
+	&__inner {
+		/*border: 1px solid white;*/
+		@include containers;
+	}
+	&__info-list {
+		/*border: 1px solid green;*/
+		padding: 40px;
+	}
+
+	&__row {
+		/*border: 1px solid red;*/
+		margin: 0 -0.7rem;
+	}
+	&__blocks {
+		/*border: 1px solid white;*/
+		padding: 0 0.7rem;
+	}
+	&__item {
+		/*border: 1px solid green;*/
+
+
+	}
+	&__item-head {
+		/*border: 1px solid red;*/
+		margin: 0 0 1.2rem 0;
+	}
+	&__item-list {
+	/*border: 1px solid red;*/
+		margin: 0;
+	}
+	&__item-list-cell {
+		cursor: pointer;
+		color: white;
+
+		& * {
+			transition: 0.2s;
+		}
+		&:hover .l-footer__post-date {
+			color: $footer-hovered-date;
+		}
+		&:hover .l-footer__post-description {
+			color: rgb(199, 178, 153);
+		}
+		&:not(:last-child){
+			border-bottom: 1px solid $footer-item-lines;
+		}
+	}
+	&__post-date {
+		/*border: 1px solid blue;*/
+		margin: 0;
+		padding: 2.1rem 0 1.1rem 0;
+		/*margin: 2.1rem 0 1.1rem 0;*/
+		font-size: 1.2rem;
+		color: $footer-item-dates-color;
+	}
+	&__post-description {
+		/*border: 1px solid blue;*/
+		margin: 0;
+		padding: 0 0 2.1rem 0;
+		font-size: 1.4rem;
+		color: $footer-item-description-color;
+	}
+
+	&__twitter-list {
+		/*border: 1px solid blue;*/
+	}
+	
+	&__twitter-item {
+		cursor: pointer;
+		&:not(:last-child){
+			border-bottom: 1px solid $footer-item-lines;
+		}
+	}
+	&__twitter-description {
+		/*border: 1px solid purple;*/
+		margin: 0 0 1.1rem 0;
+		font-size: 1.4rem;
+		padding-top: 2rem;
+		color: $footer-item-description-color;
+	}
+
+	&__twitter-date-of-publication {
+		font-size: 1.2rem;
+		color: $footer-item-dates-color;
+		margin: 0;
+		padding-bottom: 2.1rem;
+	}
+
+	&__widget-images {
+		/*border: 1px solid red;*/
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1rem;
+	}
+	&__widget-item {
+		border: 1px solid blue;
+
+		& img {
+			width: 100%;
+		}
+	}
+	&__logo-img {
+		/*border: 1px solid red;*/
+		margin-top: -2.1rem;
+		margin-bottom: 3.1rem;
+	}
+	&__about-waxom-description {
+		/*border: 1px solid black;*/
+		margin-bottom: 5.6rem;
+	}
+	&__text {
+		color: $footer-item-description-color;
+	}
+	&__about-waxom-link {
+		/*border: 1px solid red;*/
+		color: white;
+	}
+
+	&__arrow {
+		margin-left: 1rem;
+		width: 5px;
+
+		& img {
+			width: 0.7rem;
+		}
+	}
+
+	&__copyright {
+		border: 1px solid red;
+	}
+}
+.owl-carousel {
+position: relative;
+}
+.owl-prev,
+.owl-next {
+	border: 1px solid red;
+position: absolute;
+top: 50%;
+margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
+}
+.owl-prev {
+left: 0;
+}
+.owl-next {
+right: 0;
+}
