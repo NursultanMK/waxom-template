@@ -10,7 +10,9 @@
 	'components/c-gradient-block',
 	'components/c-ideas-background',
 	'components/c-navigation',
-	'components/c-service-list';
+	'components/c-projects-block',
+	'components/c-service-list',
+	'components/c-text-block';
 
 @import
 	'layout/l-body',
@@ -21,6 +23,7 @@
 @import
 	'pages/p-index-ideas',
 	'pages/p-index-main-slider',
+	'pages/p-index-projects',
 	'pages/p-index-service';
 
 @import

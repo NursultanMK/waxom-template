@@ -4,9 +4,17 @@ $primary-theme: rgb(255, 255, 255) !default;
 $dark-theme: rgb(33, 27, 25) !default;
 $brown-theme: rgb(78, 52, 39) !default;
 $light-grey-theme: rgb(97, 88, 85) !default;
+$light-grey-theme-second-variant: rgb(140, 140, 140) !default;
+$dark-brown-theme: rgb(54, 47, 45) !default;
+$light-brown-theme: rgb(199, 178, 153) !default;
 
 // Typography color
 $primary-headings: $primary-theme;
 $primary-nav-list: $primary-theme;
 $light-grey-text: $light-grey-theme;
 $button-light: $primary-theme;
+
+// Project list
+$project-hovered-cards: $dark-brown-theme;
+$project-hovered-cards-text: $primary-theme;
+$button-color: $light-grey-theme-second-variant
