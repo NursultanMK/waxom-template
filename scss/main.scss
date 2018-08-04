@@ -7,13 +7,15 @@
 	'base/base';
 
 @import
+	'components/c-counter-list',
 	'components/c-gradient-block',
 	'components/c-ideas-background',
 	'components/c-navigation',
 	'components/c-partners-logos',
 	'components/c-projects-block',
 	'components/c-service-list',
-	'components/c-text-block';
+	'components/c-text-block',
+	'components/c-video-block';
 
 @import
 	'layout/l-body',
@@ -22,11 +24,13 @@
 	'layout/l-footer';
 
 @import
+	'pages/p-index-counters',
 	'pages/p-index-ideas',
 	'pages/p-index-main-slider',
 	'pages/p-index-partners',
 	'pages/p-index-projects',
-	'pages/p-index-service';
+	'pages/p-index-service',
+	'pages/p-index-video-presentation';
 
 @import
 	'vendor/animate',

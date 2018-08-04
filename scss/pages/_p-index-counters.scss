@@ -1,0 +1,11 @@
+.p-index-counters {
+	border: 1px solid black;
+	padding-top: 6.9rem;
+	padding-bottom: 6rem;
+	@include gradient;
+
+	&__inner {
+		border: 1px solid red;
+		@include containers;
+	}
+}

@@ -1,0 +1,14 @@
+.p-index-video-presentation {
+	border: 1px solid black;
+	padding-top: 21rem;
+	padding-bottom: 20.7rem;
+	background-image: url(../img/video-presentation.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&__inner {
+		border: 1px solid red;
+		@include containers;
+	}
+}
