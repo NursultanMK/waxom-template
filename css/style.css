@@ -126,6 +126,45 @@ ul {
   .c-ideas-background img {
     width: 100%; }
 
+.c-mobile-devices-info {
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-between; }
+  .c-mobile-devices-info__img {
+    border: 1px solid black;
+    width: 467px; }
+    .c-mobile-devices-info__img img {
+      width: 100%; }
+  .c-mobile-devices-info__text {
+    border: 1px solid purple;
+    width: 668px;
+    padding-top: 11.6rem;
+    padding-bottom: 17.9rem; }
+  .c-mobile-devices-info__heading {
+    border: 1px solid red;
+    margin-bottom: 4rem;
+    color: #555555; }
+  .c-mobile-devices-info__description {
+    margin-bottom: 4rem;
+    color: #8c8c8c; }
+  .c-mobile-devices-info__list {
+    border: 1px solid orange;
+    padding-left: 4.9rem;
+    color: #8c8c8c; }
+  .c-mobile-devices-info__item {
+    border: 1px solid green;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center; }
+    .c-mobile-devices-info__item:not(:last-child) {
+      margin-bottom: 1.2rem; }
+  .c-mobile-devices-info__arrow-icon {
+    border: 1px solid black;
+    width: 2.1rem;
+    margin-right: 3rem; }
+    .c-mobile-devices-info__arrow-icon img {
+      width: 100%; }
+
 .c-navigation {
   width: 1230px;
   padding: 0 3rem 0 3rem;
@@ -532,6 +571,14 @@ ul {
 
 .third-slide {
   background-image: url(../img/main-slider-img3.jpg); }
+
+.p-index-mobile-devices {
+  border: 1px solid black;
+  padding-top: 7.9rem; }
+  .p-index-mobile-devices__inner {
+    border: 1px solid red;
+    width: 1230px;
+    padding: 0 3rem 0 3rem; }
 
 .p-index-partners {
   border: 1px solid red;

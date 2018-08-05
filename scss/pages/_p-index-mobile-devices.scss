@@ -1,0 +1,9 @@
+.p-index-mobile-devices {
+	border: 1px solid black;
+	padding-top: 7.9rem;
+
+	&__inner {
+		border: 1px solid red;
+		@include containers;
+	}
+}
