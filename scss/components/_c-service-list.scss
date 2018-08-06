@@ -1,42 +1,35 @@
 .c-service-list {
-	/*border: 1px solid red;*/
-	/*padding: 20px;*/
 	position: relative;
 	& * {
 		margin: 0;
 	}
 	&__item {
-		/*border: 1px solid purple;*/
 		padding: 0;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		cursor: pointer;
 	}
 
 	&__icon {
-		/*border: 1px solid red;*/
 		width: 70px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 3.1rem;
 		& svg {
-			/*width: 100%;*/
 			height: 40px;
-			/*border: 1px solid black;*/
 		}
 	}
 
 	&__item-title {
 		font-size: 2.2rem;
 		font-weight: 600;
-		/*border: 1px solid black;*/
 		margin-bottom: 1.9rem;
 	}
 	
 	&__item-description {
-		/*border: 1px solid black;*/
   		line-height: 1.714;
   		text-align: center;
   		margin-bottom: 3.3rem;

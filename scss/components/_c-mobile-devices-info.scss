@@ -1,10 +1,8 @@
 .c-mobile-devices-info {
-	border: 1px solid green;
 	display: flex;
 	justify-content: space-between;
 
 	&__img {
-		border: 1px solid black;
 		width: 467px;
 
 		& img {
@@ -13,14 +11,12 @@
 	}
 
 	&__text {
-		border: 1px solid purple;
 		width: 668px;
 		padding-top: 11.6rem;
 		padding-bottom: 17.9rem;
 	}
 
 	&__heading {
-		border: 1px solid red;
 		margin-bottom: 4rem;
 		color: $heading-color;
 	}
@@ -29,12 +25,10 @@
 		color: $description-color;
 	}
 	&__list {
-		border: 1px solid orange;
 		padding-left: 4.9rem;
 		color: $list-color;
 	}
 	&__item {
-		border: 1px solid green;
 		font-size: 1.6rem;
 		display: flex;
 		align-items: center;
@@ -45,7 +39,6 @@
 	}
 
 	&__arrow-icon {
-		border: 1px solid black;
 		width: 2.1rem;
 		margin-right: 3rem;
 

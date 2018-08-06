@@ -1,8 +1,6 @@
 .c-video-block {
-	border: 1px solid black;
 
 	&__click {
-		border: 1px solid green;
 		width: 100px;
 		margin: 0 auto 4.4rem auto;
 
@@ -12,7 +10,6 @@
 	}
 
 	&__text {
-		border: 1px solid blue;
 
 		& h1 {
 			margin-bottom: 2.9rem;
@@ -20,7 +17,6 @@
 		}
 	}
 	&__description {
-		border: 1px solid green;
 		font-size: 1.6rem;
 		text-align: center;
 		padding: 0 28rem 0 28rem;
@@ -29,7 +25,6 @@
 
 	}
 	&__time {
-		border: 1px solid green;
 		text-align: center;
 		font-size: 1.4rem;
 		font-weight: 500;

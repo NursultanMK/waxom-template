@@ -1,11 +1,9 @@
 .c-gradient-block {
-	border: 1px solid green;
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 	@include gradient;
 
 	&__inner {
-		border: 1px solid black;
 		display: flex;
 	}
 	&__text {
@@ -21,7 +19,6 @@
 	}
 
 	&__button {
-		border: 1px solid white;
 		width: 40%;
 		display: flex;
 		justify-content: flex-end;

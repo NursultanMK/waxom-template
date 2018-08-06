@@ -1,10 +1,8 @@
 .c-recent-posts-slider {
-	/*border: 1px solid purple;*/
 	display: flex;
 	justify-content: space-between;
 
 	&__item {
-		/*border: 1px solid red;*/
 		width: 37rem;
 		position: relative;
 		cursor: pointer;
@@ -48,14 +46,12 @@
 			left: 0;
 			background: $hovered-img-background;
 			display: none;
-			border: 1px solid black;
 		}
 		& img {
 			width: 100%;
 		}
 	}
 	&__date {
-		border: 1px solid red;
 		width: 5rem;
 		position: absolute;
 		top: 2rem;
@@ -83,29 +79,24 @@
 		}
 	}
 	&__description {
-		/*border: 1px solid green;*/
 		padding: 3rem 2rem 3.3rem 2.9rem;
 	}
 
 	&__title {
-		/*border: 1px solid black;*/
 		font-size: 2rem;
 		margin-bottom: 1.9rem;
 		color: $heading-color;
 	}
 	&__text {
-		/*border: 1px solid red;*/
 		margin-bottom: 2.7rem;
 		color: $description-color;
 	}
 
 	&__link {
-		/*border: 1px solid black;*/
 		color: $link-color;
 	}
 
 	&__link-text {
-		/*border: 1px solid red;*/
 		margin-left: 0.9rem;
 
 		& img {

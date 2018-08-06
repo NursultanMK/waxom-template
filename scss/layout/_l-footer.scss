@@ -1,41 +1,29 @@
 .l-footer {
-	/*border: 1px solid red;*/
 
 	&__website-info {
-		/*border: 1px solid green;*/
 		background: $footer-background;
 		padding-top: 10.8rem;
 		padding-bottom: 8rem;
 	}
 
 	&__inner {
-		/*border: 1px solid white;*/
 		@include containers;
 	}
 	&__info-list {
-		/*border: 1px solid green;*/
 		padding: 40px;
 	}
 
 	&__row {
-		/*border: 1px solid red;*/
 		margin: 0 -0.7rem;
 	}
 	&__blocks {
-		/*border: 1px solid white;*/
 		padding: 0 0.7rem;
 	}
-	&__item {
-		/*border: 1px solid green;*/
 
-
-	}
 	&__item-head {
-		/*border: 1px solid red;*/
 		margin: 0 0 1.2rem 0;
 	}
 	&__item-list {
-	/*border: 1px solid red;*/
 		margin: 0;
 	}
 	&__item-list-cell {
@@ -56,24 +44,18 @@
 		}
 	}
 	&__post-date {
-		/*border: 1px solid blue;*/
 		margin: 0;
 		padding: 2.1rem 0 1.1rem 0;
-		/*margin: 2.1rem 0 1.1rem 0;*/
 		font-size: 1.2rem;
 		color: $footer-item-dates-color;
 	}
 	&__post-description {
-		/*border: 1px solid blue;*/
 		margin: 0;
 		padding: 0 0 2.1rem 0;
 		font-size: 1.4rem;
 		color: $footer-item-description-color;
 	}
 
-	&__twitter-list {
-		/*border: 1px solid blue;*/
-	}
 	
 	&__twitter-item {
 		cursor: pointer;
@@ -82,7 +64,6 @@
 		}
 	}
 	&__twitter-description {
-		/*border: 1px solid purple;*/
 		margin: 0 0 1.1rem 0;
 		font-size: 1.4rem;
 		padding-top: 2rem;
@@ -97,7 +78,6 @@
 	}
 
 	&__widget-images {
-		/*border: 1px solid red;*/
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 1rem;
@@ -110,19 +90,16 @@
 		}
 	}
 	&__logo-img {
-		/*border: 1px solid red;*/
 		margin-top: -2.1rem;
 		margin-bottom: 3.1rem;
 	}
 	&__about-waxom-description {
-		/*border: 1px solid black;*/
 		margin-bottom: 5.6rem;
 	}
 	&__text {
 		color: $footer-item-description-color;
 	}
 	&__about-waxom-link {
-		/*border: 1px solid red;*/
 		color: white;
 	}
 
@@ -166,7 +143,7 @@
 			}
 		}
 		&:not(:last-child) {
-			border-right: 1px solid black;
+			border-right: 1px solid rgb(37, 37, 37);
 		}
 	}
 
@@ -177,7 +154,7 @@
 		color: $footer-copyright-component-colors;
 	}
 	&__copyright-author-list-item:nth-child(1) {
-		border-right: 1px solid black;
+		border-right: 1px solid rgb(37, 37, 37);;
 		padding: 0 1.3rem;
 	}
 	&__copyright-author-list-item:nth-child(2) {

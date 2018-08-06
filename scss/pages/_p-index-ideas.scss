@@ -1,22 +1,15 @@
 .p-index-ideas {
-	border: 1px solid black;
 	padding-top: 8.1rem;
 
 	&__inner {
-		border: 1px solid red;
 		@include containers;
 	}
 
 	&__heading {
-		border: 1px solid purple;
 		margin-bottom: 2.5rem;
 		& h1 {
 			font-weight: 600;
 			color: $heading-color;
 		}
-	}
-
-	&__body {
-		border: 1px solid green;
 	}
 }

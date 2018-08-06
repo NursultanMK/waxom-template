@@ -1,15 +1,12 @@
 .p-index-recent-posts {
-	border: 1px solid red;
 	padding-top: 8.2rem;
 	padding-bottom: 8rem;
 	
 	&__inner {
-		border: 1px solid blue;
 		@include containers;
 	}
 
 	&__heading {
-		border: 1px solid red;
 		margin-bottom: 3rem;
 		& h1 {
 			font-weight: 600;
