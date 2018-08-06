@@ -2,8 +2,8 @@
 	position: relative;
 
 	&__header {
+		border: 1px solid red;
 		position: absolute;
-		width: 100%;
 		z-index: 9999;
 	}
 	&__main {

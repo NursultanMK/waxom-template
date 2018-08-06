@@ -49,6 +49,29 @@ ul {
   padding: 0;
   list-style: none; }
 
+a {
+  color: unset;
+  text-decoration: none; }
+
+a:link {
+  color: red;
+  text-decoration: none; }
+
+a:visited {
+  color: inherit;
+  text-decoration: none; }
+
+a:hover {
+  color: #c7b299;
+  text-decoration: none; }
+
+a:active {
+  color: white;
+  text-decoration: none; }
+
+a:active {
+  text-decoration: none; }
+
 .c-counter-list {
   border: 1px solid blue;
   width: 970px;
@@ -167,31 +190,32 @@ ul {
       width: 100%; }
 
 .c-navigation {
-  width: 1230px;
-  padding: 0 3rem 0 3rem;
+  border: 1px solid blue;
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  border: 1px solid red; }
-  .c-navigation__logo {
+  justify-content: space-between; }
+  .c-navigation__logotype {
+    border: 1px solid red;
     width: 181px; }
-  .c-navigation__menu {
-    width: 770px;
+    .c-navigation__logotype img {
+      width: 100%; }
+  .c-navigation__list {
+    border: 1px solid white;
+    display: flex; }
+  .c-navigation__list-item {
+    border: 1px solid red;
+    color: white;
+    padding: 0 1.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center; }
-  .c-navigation__menu-list {
-    display: flex;
-    color: white; }
-  .c-navigation__item {
-    padding-right: 28px; }
-  .c-navigation__icons {
-    width: 70px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; }
-    .c-navigation__icons img {
-      display: block; }
+    .c-navigation__list-item:last-child {
+      display: flex;
+      padding: 0 0 0 4.8rem; }
+  .c-navigation__card {
+    border: 1px solid blue;
+    margin-right: 2.7rem; }
+  .c-navigation__search {
+    border: 1px solid blue; }
 
 .c-partners-logos {
   border: 1px solid red;
@@ -456,14 +480,20 @@ ul {
 .l-body {
   position: relative; }
   .l-body__header {
+    border: 1px solid red;
     position: absolute;
-    width: 100%;
     z-index: 9999; }
   .l-body__main {
     position: relative; }
 
 .l-header {
-  padding: 4rem 0 4rem 0; }
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  .l-header__inner {
+    border: 1px solid white;
+    width: 1230px;
+    padding: 0 3rem 0 3rem; }
 
 .l-footer {
   /*border: 1px solid red;*/ }
