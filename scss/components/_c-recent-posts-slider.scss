@@ -1,0 +1,116 @@
+.c-recent-posts-slider {
+	/*border: 1px solid purple;*/
+	display: flex;
+	justify-content: space-between;
+
+	&__item {
+		/*border: 1px solid red;*/
+		width: 37rem;
+		position: relative;
+		cursor: pointer;
+		transition: 0.2s;
+		border: 1px solid rgb(245, 245, 245);
+
+		& * {
+			transition: 0.2s;
+		}
+		&:hover {
+			background: $hovered-card;
+		}
+		&:hover .c-recent-posts-slider__img-hovered-background{
+			display: block;
+		}
+		&:hover .c-recent-posts-slider__date-day{
+			background: $hovered-day;
+		}
+
+		&:hover .c-recent-posts-slider__date-month{
+			background: $hovered-month;
+		}
+		&:hover .c-recent-posts-slider__title {
+			color: $hovered-heading;
+		}
+		&:hover .c-recent-posts-slider__text {
+			color: $hovered-paragraph;
+		}
+
+
+	}
+	&__img {
+		width: 100%;
+		position: relative;
+		
+		&-hovered-background {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			background: $hovered-img-background;
+			display: none;
+			border: 1px solid black;
+		}
+		& img {
+			width: 100%;
+		}
+	}
+	&__date {
+		border: 1px solid red;
+		width: 5rem;
+		position: absolute;
+		top: 2rem;
+		left: 2rem;
+		z-index: 9999;
+
+		&-day {
+			font-size: 2.4rem;
+			text-align: center;
+			padding-left: 1rem;
+			padding-right: 1rem;
+			border-radius: 0.3rem 0.3rem 0 0;
+			color: white;
+			background: $recent-post-date-day;
+		}
+
+		&-month {
+			font-size: 1.2rem;
+			text-align: center;
+			padding-top: 0.3rem;
+			padding-bottom: 0.3rem;
+			border-radius: 0 0 0.3rem 0.3rem;
+			color: white;
+			background: $recent-post-date-month;
+		}
+	}
+	&__description {
+		/*border: 1px solid green;*/
+		padding: 3rem 2rem 3.3rem 2.9rem;
+	}
+
+	&__title {
+		/*border: 1px solid black;*/
+		font-size: 2rem;
+		margin-bottom: 1.9rem;
+		color: $heading-color;
+	}
+	&__text {
+		/*border: 1px solid red;*/
+		margin-bottom: 2.7rem;
+		color: $description-color;
+	}
+
+	&__link {
+		/*border: 1px solid black;*/
+		color: $link-color;
+	}
+
+	&__link-text {
+		/*border: 1px solid red;*/
+		margin-left: 0.9rem;
+
+		& img {
+			width: 4.95px !important;
+			display: inline !important;
+		}
+	}
+}

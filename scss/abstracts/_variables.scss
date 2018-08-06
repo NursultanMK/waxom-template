@@ -8,6 +8,13 @@ $light-grey-theme-second-variant: rgb(140, 140, 140) !default;
 $dark-brown-theme: rgb(54, 47, 45) !default;
 $light-brown-theme: rgb(199, 178, 153) !default;
 
+// Headings
+$heading-color: rgb(85, 85, 85) !default;
+
+// Paragraphs
+$description-color: rgb(140, 140, 140) !default;
+
+
 // Typography color
 $primary-headings: $primary-theme;
 $primary-nav-list: $primary-theme;
@@ -20,9 +27,20 @@ $project-hovered-cards-text: $primary-theme;
 $button-color: $light-grey-theme-second-variant;
 
 // Mobile Devices Component colors
-$heading-color: rgb(85, 85, 85) !default;
-$description-color: rgb(140, 140, 140) !default;
 $list-color: rgb(140, 140, 140) !default;
+
+// Recent Posts Component colors
+$recent-post-date-day: rgb(54, 54, 54) !default;
+$recent-post-date-month: rgb(37, 37, 37) !default;
+$link-color: rgb(199, 178, 153) !default;
+
+$hovered-img-background: rgba(0, 0, 0, 0.5) !default;
+$hovered-card: rgb(54, 47, 45) !default;
+$hovered-day: rgb(199, 178, 153) !default;
+$hovered-month: rgb(164, 141, 114) !default;
+$hovered-heading: rgb(199, 178, 153) !default;
+$hovered-paragraph: rgb(255, 255, 255) !default;
+
 
 // Footer
 $footer-background: rgb(25, 25, 25) !default;
