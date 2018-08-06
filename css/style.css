@@ -561,23 +561,38 @@ ul {
     .l-footer__arrow img {
       width: 0.7rem; }
   .l-footer__copyright {
-    border: 1px solid red; }
-
-.owl-carousel {
-  position: relative; }
-
-.owl-prev,
-.owl-next {
-  border: 1px solid red;
-  position: absolute;
-  top: 50%;
-  margin-top: -10px; }
-
-.owl-prev {
-  left: 0; }
-
-.owl-next {
-  right: 0; }
+    background: #111111;
+    padding-top: 4.5rem;
+    padding-bottom: 5.2rem; }
+  .l-footer__copyright-inner {
+    width: 1230px;
+    padding: 0 3rem 0 3rem; }
+  .l-footer__lists {
+    display: flex;
+    justify-content: space-between; }
+  .l-footer__copyright-list {
+    display: flex; }
+  .l-footer__copyright-list-item {
+    padding-right: 1.3rem;
+    color: #555555;
+    cursor: pointer; }
+    .l-footer__copyright-list-item:not(:first-child) {
+      padding: 0 1.3rem; }
+      .l-footer__copyright-list-item:not(:first-child):hover {
+        color: #c7b299; }
+    .l-footer__copyright-list-item:not(:last-child) {
+      border-right: 1px solid black; }
+  .l-footer__copyright-author-list {
+    display: flex; }
+  .l-footer__copyright-author-list-item {
+    color: #555555; }
+  .l-footer__copyright-author-list-item:nth-child(1) {
+    border-right: 1px solid black;
+    padding: 0 1.3rem; }
+  .l-footer__copyright-author-list-item:nth-child(2) {
+    padding: 0 0 0 1.3rem; }
+  .l-footer__copyright-bright-component {
+    color: #959595; }
 
 .p-index-counters {
   border: 1px solid black;
