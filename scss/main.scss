@@ -17,7 +17,8 @@
 	'components/c-recent-posts-slider',
 	'components/c-service-list',
 	'components/c-text-block',
-	'components/c-video-block';
+	'components/c-video-block',
+	'components/slider';
 
 @import
 	'layout/l-body',
@@ -36,15 +37,3 @@
 	'pages/p-index-service',
 	'pages/p-index-video-presentation';
 
-@import
-	'vendor/animate',
-	'vendor/autoheight',
-	'vendor/core',
-	'vendor/lazyload',
-	'vendor/theme.default',
-	'vendor/theme.green',
-	'vendor/theme',
-	'vendor/video',
-	'vendor/owl.carousel',
-	'vendor/owl.theme.default',
-	'vendor/owl.theme.green';

@@ -6,7 +6,8 @@
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="owlcarousel/dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/dist/assets/owl.theme.default.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&amp;subset=cyrillic" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -56,7 +57,7 @@
 			</div>
 		</header>
 		<main class="l-body__main">
-			<section class="p-index-main-slider owl-carousel owl-theme">
+			<section class="p-index-main-slider owl-carousel">
 				<div class="p-index-main-slider__item first-slide">
 					<div class="p-index-main-slider__slogan">
 						<h2 class="p-index-main-slider__title">Unique and Modern Design</h2>
@@ -396,7 +397,7 @@
 								Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
 							</p>
 						</div>
-						<div class="c-recent-posts-slider owl-carousel">
+						<div class="c-recent-posts-slider">
 							<div class="c-recent-posts-slider__item">
 								<div class="c-recent-posts-slider__date">
 									<div class="c-recent-posts-slider__date-day">30</div>
@@ -623,23 +624,19 @@
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
-		<script src="js/owl.carousel.js"></script>
-		<script>
-		$(document).ready(function() {
-			$(".p-index-main-slider").owlCarousel({
-				navigation: true,
-				navText: ["<div>NextPage</div>","<div>PrevPage</div>"],
-				navClass: ["owl-prev", "owl-next"],
-				slideSpeed : 300,
-				paginationSpeed : 400,
-				items : 1, 
-				itemsDesktop : false,
-				itemsDesktopSmall : false,
-				itemsTablet: false,
-				itemsMobile : false,
-			  });
-			$('.c-recent-posts-slider').owlCarousel()
-		});
-		</script>
+<script src="owlcarousel/dist/owl.carousel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.p-index-main-slider').owlCarousel({
+	    nav:true,
+	    items: 1,
+	    loop: true,
+	    dots: true,
+	    navText: ['<img src="img/left.svg" alt="Left" />', '<img src="img/right.svg" alt="Right" />']
+	});
+
+
+})
+</script>
 	</body>
 </html>

@@ -1,0 +1,35 @@
+.owl-nav {
+	position: absolute;
+	width: 100%;
+	top: 49rem;
+	left: 0;
+	right: 0;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 15rem;
+}
+.owl-dots {
+	position: absolute;
+	bottom: 4.3rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	& span {
+		width: 11px;
+		height: 11px;
+		display: block;
+		margin: 0 0.6rem;
+		border-radius: 100%;
+		background: rgb(149, 149, 149);
+		transition: 0.2s;
+	}
+}
+.active span {
+	border: 1px solid rgb(211, 193, 173);
+	background: none;
+	width: 12px;
+	height: 12px;
+}
