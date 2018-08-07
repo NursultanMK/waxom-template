@@ -32,7 +32,9 @@
 		&:hover .c-recent-posts-slider__text {
 			color: $hovered-paragraph;
 		}
-
+		&:hover .c-recent-posts-slider__link {
+			color: white;
+		}
 
 	}
 	&__img {
@@ -98,8 +100,8 @@
 	}
 
 	&__link-text {
+		border: 1px solid red, !important;
 		margin-left: 0.9rem;
-
 		& img {
 			width: 4.95px !important;
 			display: inline !important;

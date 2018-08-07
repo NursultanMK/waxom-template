@@ -295,6 +295,8 @@ a:active {
       color: #c7b299; }
     .c-recent-posts-slider__item:hover .c-recent-posts-slider__text {
       color: white; }
+    .c-recent-posts-slider__item:hover .c-recent-posts-slider__link {
+      color: white; }
   .c-recent-posts-slider__img {
     width: 100%;
     position: relative; }
@@ -342,6 +344,7 @@ a:active {
   .c-recent-posts-slider__link {
     color: #c7b299; }
   .c-recent-posts-slider__link-text {
+    border: 1px solid red, !important;
     margin-left: 0.9rem; }
     .c-recent-posts-slider__link-text img {
       width: 4.95px !important;
@@ -690,7 +693,8 @@ iframe {
     width: 1230px;
     padding: 0 3rem 0 3rem; }
   .p-index-projects__heading {
-    margin-bottom: 2.6rem; }
+    margin-bottom: 2.6rem;
+    color: #555555; }
 
 .p-index-recent-posts {
   padding-top: 8.2rem;
