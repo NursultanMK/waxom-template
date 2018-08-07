@@ -33,3 +33,16 @@
 	width: 12px;
 	height: 12px;
 }
+.c-recent-posts-slider .owl-nav {
+	top: unset;
+	bottom: -5rem;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.c-recent-posts-slider .owl-nav * {
+	margin: 0 0.3rem;
+}

@@ -1,6 +1,7 @@
 .c-recent-posts-slider {
 	display: flex;
 	justify-content: space-between;
+	position: relative;
 
 	&__item {
 		width: 37rem;

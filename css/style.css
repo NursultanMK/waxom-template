@@ -272,7 +272,8 @@ a:active {
 
 .c-recent-posts-slider {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  position: relative; }
   .c-recent-posts-slider__item {
     width: 37rem;
     position: relative;
@@ -449,6 +450,17 @@ a:active {
   background: none;
   width: 12px;
   height: 12px; }
+
+.c-recent-posts-slider .owl-nav {
+  top: unset;
+  bottom: -5rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.c-recent-posts-slider .owl-nav * {
+  margin: 0 0.3rem; }
 
 .l-body {
   position: relative; }
@@ -663,7 +675,7 @@ a:active {
 
 .p-index-recent-posts {
   padding-top: 8.2rem;
-  padding-bottom: 8rem; }
+  padding-bottom: 14.1rem; }
   .p-index-recent-posts__inner {
     width: 1230px;
     padding: 0 3rem 0 3rem; }
