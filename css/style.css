@@ -142,7 +142,8 @@ a:active {
   display: flex;
   justify-content: space-between; }
   .c-mobile-devices-info__img {
-    width: 467px; }
+    width: 467px;
+    display: flex; }
     .c-mobile-devices-info__img img {
       width: 100%; }
   .c-mobile-devices-info__text {
