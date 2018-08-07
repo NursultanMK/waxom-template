@@ -9,3 +9,7 @@
 <p> There was some trouble with Bootstrap containers. I mean that bootstrap's container's paddings gave me not that result i
 expect. So i had to make custom containers properties.
 </p>
+
+<p><strong>Important!</strong>
+  <p>This project was for desktop version (1920px)
+</p>
